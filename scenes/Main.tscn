@@ -1,0 +1,42 @@
+[gd_scene load_steps=2 format=3 uid="uid://bklaq68c41fj1"]
+
+[ext_resource type="Script" uid="uid://ctbpsl4ifayg0" path="res://scripts/ui/Main.gd" id="1_elqb8"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_elqb8")
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="Interface" type="Control" parent="UI"]
+layout_mode = 3
+anchor_right = 0.174
+anchor_bottom = 0.25
+offset_right = 0.919983
+
+[node name="CenterLabel" type="Label" parent="UI/Interface"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 148.0
+offset_top = 117.0
+offset_right = -147.0
+offset_bottom = -130.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="StartButton" type="Button" parent="UI/Interface"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.364
+anchor_top = 0.189
+anchor_right = 0.513
+anchor_bottom = 0.344
+offset_left = 0.0599899
+offset_top = -0.0300026
+offset_right = 0.144989
+offset_bottom = 0.119995
+theme_override_font_sizes/font_size = 10
+text = "Login"
+
+[connection signal="pressed" from="UI/Interface/StartButton" to="." method="_on_start_button_pressed"]

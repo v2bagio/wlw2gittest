@@ -1,0 +1,24 @@
+├── resources
+├── assets
+│   ├── audio
+│   ├── fonts
+│   └── images
+├── scripts
+│   ├── systems
+│   ├── ui
+│   │   ├── PlayMenu.gd
+│   │   └── Lobby.gd
+│   ├── core
+│   │   └── SceneManager.gd
+│   └── data
+└── scenes
+    ├── PlayMenu.tscn
+    ├── Settings.tscn
+    ├── Lobby.tscn
+    ├── Trade.tscn
+    ├── Login.tscn
+    ├── Main.tscn
+    ├── Store.tscn
+    ├── Collection.tscn
+    ├── Login.gd
+    └── Main.gd

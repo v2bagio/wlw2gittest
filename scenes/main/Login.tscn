@@ -1,0 +1,40 @@
+[gd_scene load_steps=2 format=3 uid="uid://dxwy7v2bl4o1j"]
+
+[ext_resource type="Script" uid="uid://cfiqsrcutwa4b" path="res://scripts/ui/Login.gd" id="1_tqln5"]
+
+[node name="Login" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_tqln5")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Bem-vindo ao Ygg!" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Bem-vindo ao Ygg!"
+
+[node name="User" type="LineEdit" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Password" type="LineEdit" parent="VBoxContainer"]
+layout_mode = 2
+secret = true
+secret_character = "*"
+
+[node name="Entrar" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Login Google" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Esqueci senha" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ErrorLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Credenciais inválidas."
+
+[connection signal="pressed" from="VBoxContainer/Entrar" to="." method="_on_entrar_pressed"]

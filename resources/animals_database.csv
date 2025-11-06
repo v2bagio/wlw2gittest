@@ -1,0 +1,7 @@
+﻿species_id,name,species_name,habitat,conservation_status,strength_relative,structural_density,power_per_weight,biomech_efficiency,material_resistance,acceleration_capacity,pressure_resistance,metabolic_power,description
+B001,Jaguar Amazônico,Panthera onca,Floresta Amazônica,Quase Ameaçada,95,85,90,80,88,75,70,82,O jaguar é o maior felino das Américas e um predador apex da Amazônia.
+B002,Águia-Harpia,Harpia harpyja,Floresta Amazônica,Vulnerável,70,65,95,90,75,85,60,80,A águia-harpia é uma das maiores e mais poderosas aves de rapina do mundo.
+B003,Capivara,Hydrochoerus hydrochaeris,Cerrado e Pantanal,Pouco Preocupante,40,70,35,60,80,45,90,55,A capivara é o maior roedor do mundo e um excelente nadador.
+B004,Tamanduá-Bandeira,Myrmecophaga tridactyla,Cerrado e Caatinga,Vulnerável,60,75,45,70,85,30,50,65,O tamanduá-bandeira possui garras poderosas capazes de abrir formigueiros.
+B005,Preguiça-de-Três-Dedos,Bradypus variegatus,Mata Atlântica,Pouco Preocupante,25,50,20,40,70,15,40,30,A preguiça é o mamífero mais lento do mundo mas com metabolismo ultra-eficiente.
+B006,Boto-Cor-de-Rosa,Inia geoffrensis,Rios Amazônicos,Em Perigo,55,60,85,75,70,80,95,90,O boto é o maior golfinho de água doce e possui ecolocalização avançada.

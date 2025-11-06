@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://bs05ncl27wm0j"
+
+[deps]
+
+files=["res://resources/animals_database.name.translation", "res://resources/animals_database.species.translation", "res://resources/animals_database.habitat.translation", "res://resources/animals_database.conservation.translation", "res://resources/animals_database.strength.translation", "res://resources/animals_database.structural.translation", "res://resources/animals_database.power.translation", "res://resources/animals_database.biomech.translation", "res://resources/animals_database.material.translation", "res://resources/animals_database.acceleration.translation", "res://resources/animals_database.pressure.translation", "res://resources/animals_database.metabolic.translation", "res://resources/animals_database.description.translation"]
+
+source_file="res://resources/animals_database.csv"
+dest_files=["res://resources/animals_database.name.translation", "res://resources/animals_database.species.translation", "res://resources/animals_database.habitat.translation", "res://resources/animals_database.conservation.translation", "res://resources/animals_database.strength.translation", "res://resources/animals_database.structural.translation", "res://resources/animals_database.power.translation", "res://resources/animals_database.biomech.translation", "res://resources/animals_database.material.translation", "res://resources/animals_database.acceleration.translation", "res://resources/animals_database.pressure.translation", "res://resources/animals_database.metabolic.translation", "res://resources/animals_database.description.translation"]
+
+[params]
+
+compress=true
+delimiter=0

@@ -1,0 +1,31 @@
+[gd_scene load_steps=2 format=3 uid="uid://ctoybpq14ijg3"]
+
+[ext_resource type="Script" uid="uid://xgevm1mxdtor" path="res://scripts/ui/Collection.gd" id="1_yq4ra"]
+
+[node name="Collection" type="Control"]
+layout_mode = 3
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_right = -960.0
+offset_bottom = -540.0
+script = ExtResource("1_yq4ra")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_right = 972.0
+offset_bottom = 543.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Header" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="CollectionGrid" type="ScrollContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="GridContainer" type="GridContainer" parent="MarginContainer/VBoxContainer/CollectionGrid"]
+layout_mode = 2
+
+[node name="BackButton" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2

@@ -1,0 +1,41 @@
+[gd_scene load_steps=2 format=3 uid="uid://drnxoyduy1fqh"]
+
+[ext_resource type="Script" uid="uid://cru2lptqb36y1" path="res://scripts/ui/Store.gd" id="1_dcmq3"]
+
+[node name="Store" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_dcmq3")
+
+[node name="Label" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Em breve..."
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Header" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="PacksContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Pacote" type="Button" parent="VBoxContainer/PacksContainer"]
+layout_mode = 2
+
+[node name="Pacote 1" type="Button" parent="VBoxContainer/PacksContainer"]
+layout_mode = 2
+
+[node name="InfoLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="BuyButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="BackButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2

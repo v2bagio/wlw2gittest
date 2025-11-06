@@ -1,0 +1,77 @@
+[gd_scene format=3 uid="uid://3b31porbdcj"]
+
+[node name="CardDisplay" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="CardFrame" type="NinePatchRect" parent="Background"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="CardImage" type="TextureRect" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="HeaderContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="NameLabel" type="Label" parent="VBoxContainer/HeaderContainer"]
+layout_mode = 2
+
+[node name="RarityIcon" type="TextureRect" parent="VBoxContainer/HeaderContainer"]
+layout_mode = 2
+
+[node name="SpeciesLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="AttributesContainer" type="GridContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="StrengthLabel" type="Label" parent="VBoxContainer/AttributesContainer"]
+layout_mode = 2
+
+[node name="DensityLabel" type="Label" parent="VBoxContainer/AttributesContainer"]
+layout_mode = 2
+
+[node name="PowerWeightLabel" type="Label" parent="VBoxContainer/AttributesContainer"]
+layout_mode = 2
+
+[node name="BiomechLabel" type="Label" parent="VBoxContainer/AttributesContainer"]
+layout_mode = 2
+
+[node name="MaterialLabel" type="Label" parent="VBoxContainer/AttributesContainer"]
+layout_mode = 2
+
+[node name="AccelLabel" type="Label" parent="VBoxContainer/AttributesContainer"]
+layout_mode = 2
+
+[node name="PressureLabel" type="Label" parent="VBoxContainer/AttributesContainer"]
+layout_mode = 2
+
+[node name="MetabolicLabel" type="Label" parent="VBoxContainer/AttributesContainer"]
+layout_mode = 2
+
+[node name="InfoContainer" type="VBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="HabitatLabel" type="Label" parent="VBoxContainer/InfoContainer"]
+layout_mode = 2
+
+[node name="ConservationLabel" type="Label" parent="VBoxContainer/InfoContainer"]
+layout_mode = 2
+
+[node name="PhotographerLabel" type="Label" parent="VBoxContainer/InfoContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
