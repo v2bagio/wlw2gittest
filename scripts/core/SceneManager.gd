@@ -13,5 +13,5 @@ func change_scene(scene_path: String):
 
 func reload_scene():
 	if current_scene:
-		change_scene(current_scene.scene_file_path)
+		change_scene(current_scene.filename)
 	
